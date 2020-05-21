@@ -67,6 +67,10 @@
     position: relative;
     margin-top: 5px;
 }
+.layout-academico{
+    position: relative;
+    margin-top: 5px;
+}
 
 @media(max-width: 991px) {
     .layout-projetos .row > div:not(.ultima-coluna) {

@@ -531,9 +531,9 @@
         color: white;
     }
 
-    /*---Carousel Social Media---*/
+    /*---Carousel Projetos---*/
 
-    .social-media__titulo{
+    .social-media__titulo, .academico__titulo{
         padding: 40px;
         margin: 5px 0;
         text-align: center;
@@ -543,7 +543,7 @@
         font-size: 3.375em;
     }
 
-    .social-media__empresa{
+    .social-media__empresa, .academico__instituicao{
         text-align: center;
 
         font-size: 2.5em;
@@ -563,7 +563,7 @@
         border-radius: 30px;
     }
 
-    .social-media__descricao{
+    .social-media__descricao, .academico__descricao{
         text-align: center;
 
         padding-bottom: 20px;
@@ -573,7 +573,7 @@
         text-decoration: none;
         color: black;
     }
-    .social-media__descricao--btn{
+    .social-media__descricao--btn, .academico__descricao--btn{
         text-align: center;
 
         padding-bottom: 20px;
@@ -583,7 +583,8 @@
         text-decoration: none;
         color: black;
     }
-
+    
+    
     .social-media__descricao--btn:hover, .social-media__descricao--btn:focus {
         transition: 0.5s;
 
@@ -592,9 +593,13 @@
 
     }
 
-    .social-media__texto{
-        padding: 20px 10px;
+    .social-media__texto, .academico__texto{
+        padding: 10px 10px;
         text-align: center;
 
         font-size: 1em;
+    }
+
+    .academico__subtitulo{
+        font-size: 1.4em;
     }

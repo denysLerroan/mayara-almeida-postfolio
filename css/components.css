@@ -121,7 +121,7 @@
             height: 300px;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 0px 50px #919191;
+            box-shadow: 0 0px 50px #838383;
         }
         
         .imgBx{
@@ -169,7 +169,7 @@
             height: 50px;
             line-height: 50px;
             text-align: center;
-            background: linear-gradient(120deg, #fff, #bebebe,#fff);
+            background: linear-gradient(150deg, #fff, #fcf1ff,#fff);
             color: #000000;
             margin: 0 5px;
             border-radius: 50%;
@@ -227,7 +227,7 @@
         }
         
         .details h2 span{
-            color: #bbb;
+            color: rgb(0, 0, 0);
             font-size: 16px;
         }
     
@@ -344,6 +344,14 @@
     
     .layout-projetos .card:hover:before{
         clip-path: circle(300px at -100% -100%);
+    }
+
+    .layout-projetos .card:hover{
+
+        box-shadow: 0 0 5px #741ab1,
+                    0 0 8px #741ab1,
+                    0 0 11px #741ab1,
+                    0 0 14px #741ab1;
     }
     
     .layout-projetos .card:after{
@@ -533,14 +541,23 @@
 
     /*---Carousel Projetos---*/
 
-    .social-media__titulo, .academico__titulo{
+    .social-media__titulo, .academico__titulo, .sobremim__titulo, .contato__titulo{
         padding: 40px;
         margin: 5px 0;
         text-align: center;
             
-        color: rgb(0, 0, 0);
             
         font-size: 3.375em;
+    }
+    .sobremim__titulo--change{
+        padding-bottom: 10px;
+
+        font-weight: 500;
+    }
+    .contato__titulo--change{
+        padding-bottom: 10px;
+
+        font-weight: 500;
     }
 
     .social-media__empresa, .academico__instituicao{
@@ -593,7 +610,7 @@
 
     }
 
-    .social-media__texto, .academico__texto{
+    .social-media__texto, .academico__texto,{
         padding: 10px 10px;
         text-align: center;
 
@@ -602,4 +619,33 @@
 
     .academico__subtitulo{
         font-size: 1.4em;
+    }
+
+    .sobremim__texto, .contato__texto{
+        text-align: center;
+
+        font-size: 1.6em;
+    }
+
+    .sobremim__hardskills, .sobremim__softskills{
+        text-align: center;
+
+        font-size: 2.2em;
+
+        font-weight: 500;
+    }
+
+    /*---Contato---*/
+
+    .icones__color--contato{
+        text-align: center;
+        padding: 5px;
+
+        color: rgb(0, 0, 0);
+        font-size: 2em;
+    }
+
+    .icones__color--contato:hover{
+        text-decoration: underline;
+        color: #741ab1;
     }

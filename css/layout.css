@@ -1,5 +1,5 @@
 .background {
-    width: auto;
+    background-attachment: fixed;
 
     background-image: url(/imgs/bgDarkViolet.jpg)
     /*background-image: linear-gradient(+45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);*/
@@ -70,6 +70,37 @@
 .layout-academico{
     position: relative;
     margin-top: 5px;
+}
+.layout-sobre-mim{
+    position: relative;
+    margin-top: 5px;
+}
+.layout-contato{
+    position: relative;
+    margin-top: 5px;
+
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.layout-rodape {
+    position: relative;
+    padding: 20px 0px;
+    border-top: 1px solid #741ab1;
+    box-shadow: 0 0 5px #741ab1,
+                0 0 10px #741ab1,
+                0 0 15px #741ab1,
+                0 0 20px #741ab1;
+
+    background: rgba(0, 0, 0, 0.8);
+
+    color: #fff;
+    text-align: center;
+
+    font-size: 1.6em;
 }
 
 @media(max-width: 991px) {

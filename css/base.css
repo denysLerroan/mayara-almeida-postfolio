@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* Font responsiva 10 px*/
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Posicionamento */
+
+    /* Display e Box Model*/
+    margin: 0;
+
+    /* Cores */
+
+    /* Textos */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+
+    /* Outros */
+}
